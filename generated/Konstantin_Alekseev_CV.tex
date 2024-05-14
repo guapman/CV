@@ -1,0 +1,384 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage[explicit]{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{14, 140, 77} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Konstantin Alekseev's CV},
+    pdfauthor={Konstantin Alekseev},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage[default, type1]{sourcesanspro} 
+
+% Some settings:
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0.15cm} % set column seperation
+\makeatletter
+\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+    \color{gray}\textit{\small Konstantin Alekseev - Page \thepage{} of \pageref*{LastPage}}
+}{}{} % replace number by desired string
+\makeatother
+\pagestyle{customFooterStyle}
+
+\titleformat{\section}{
+    % avoid page braking right after the section title
+    \needspace{4\baselineskip}
+    % make the font size of the section title large and color it with the primary color
+    \Large\color{primaryColor}
+}{
+}{
+}{
+    % print bold title, give 0.15 cm space and draw a line of 0.8 pt thickness
+    % from the end of the title to the end of the body
+    \textbf{#1}\hspace{0.15cm}\titlerule[0.8pt]\hspace{-0.1cm}
+}[] % section title formatting
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+% \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0.2 cm + 0.00001 cm
+    }{
+        0.2 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{1 cm, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for three column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\color{primaryColor}\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{Last updated in May 2024}\hspace{\widthof{Last updated in May 2024}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\mbox{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}}
+
+
+\begin{document}
+    \placelastupdatedtext
+    \begin{header}
+        \fontsize{30 pt}{30 pt}
+        \textbf{Konstantin Alekseev}
+
+        \vspace{0.3 cm}
+
+        \normalsize
+        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Dubai, UAE}
+        \kern 0.5 cm
+        \mbox{\hrefWithoutArrow{mailto:kalekseev.spb@gmail.com}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}kalekseev.spb@gmail.com}}
+        \kern 0.5 cm
+        \mbox{\hrefWithoutArrow{tel:+971-52-397-2904}{{\footnotesize\faPhone*}\hspace*{0.13cm}+971 52 397 2904}}
+        \kern 0.5 cm
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/guapman}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}guapman}}
+        \kern 0.5 cm
+        \mbox{\hrefWithoutArrow{https://github.com/guapman}{{\footnotesize\faGithub}\hspace*{0.13cm}guapman}}
+        \kern 0.5 cm
+    \end{header}
+
+    \vspace{0.3 cm - 0.3 cm}
+
+
+    \section{Summary}
+
+        
+        \begin{onecolentry}
+            I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. Main interest and expertise: \textit{distributed client server systems, VoIP and media processing, media streaming solutions, IoT and embedded systems, cross-platform development}.\\ My priority for future is backend development as I like to take care about business logic, invent API structure and optimize performance in highly loaded systems.
+
+        \end{onecolentry}
+
+
+    
+    \section{Education}
+
+        
+        \begin{threecolentry}{\textbf{M.C.S}}{
+            Sept. 2001 to Sept. 2007
+        }
+            \textbf{Saint Petersburg State University of Aerospace and Instrumentation}, \textit{Computer Science}
+            \begin{highlights}
+                \item \textbf{Graduation project:} Effective encoding of DCT transformation coefficients in the video compression tasks.
+                \item \textbf{Coursework:} Automated control systems, Embedded systems, Signal Processing, System level software, Network technologies, Computer graphics, Real-time systems, AI systems, Software Foundations, Computer Architecture.
+            \end{highlights}
+        \end{threecolentry}
+
+
+    
+    \section{Experience}
+
+        
+        \begin{twocolentry}{
+            Dubai, UAE
+
+        July 2022 to present
+        }
+            \textbf{iOHealth}, \textit{Team Leader}
+            \begin{highlights}
+                \item Development of platform for telehealth services with integrated video calls and IoT medical devices. Scalable backend written on Scala and native frontend clients for mobiles and desktop devices.
+                \item Analyzing business requirements and search for optimal technical solutions for implementation.
+                \item Development lead of the VoIP and messaging platform team.
+                \item Implementation of microservice for data store, processing and analyzing of third-party medical smart devices and wearables.
+                \item Transition from internal media server to Zoom Video SDK as it was requirements from local regulator to use VoIP calls in UAE.
+                \item Stack: \textit{Scala, C++, Python, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker}
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Dubai, UAE (Remote)
+
+        Dec. 2015 to June 2022
+        }
+            \textbf{Shamsa Tech}, \textit{Desktop Client Team Leader / Backend Developer}
+            \begin{highlights}
+                \item Developed a cross-platform desktop client for B2B messaging and video calls platform.
+                \item Implemented custom binary protocol with strong security and worked hard on complex modern UI that was developed in thought cooperation with design team.
+                \item I led the desktop client team and coordinated tasks using agile methodology.
+                \item Participated in backend development and API design.
+                \item Product was created from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.
+                \item Stack: \textit{C++, Scala, Qt, WebRTC, gtest, OpenSSL, Janus Media Server} \\ \\
+
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Saint-Petersburg, Russia
+
+        Jan. 2011 to May 2022
+        }
+            \textbf{NITA LLC}, \textit{Senior Software Developer}
+            \begin{highlights}
+                \item Implemented a new pseudo-pilot workspace for air traffic controllers simulator that is widely used all over the CIS region, Turkey and Lithuania.
+                \item Took part in AMAN/DMAN service implementation for arrival and departure planes management. Service was successfully integrated in several ATC centers and helped to increase throughput of air traffic flows.
+                \item Integrated new technologies to the legacy code base that helped to improve stability of software and development process.
+                \item Communicated with company clients for clarification of tasks and participated in international exhibitions as technical specialist to show simulator and other company products.
+                \item Stack: \textit{C++, Qt, QML, STL, boost, WinAPI, MFC, XML}
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Saint-Petersburg, Russia
+
+        Apr. 2008 to Dec. 2010
+        }
+            \textbf{LG Electonics}, \textit{Research Engineer}
+            \begin{highlights}
+                \item Took part in development and release of mobile phones GD880, GD510, BL40, KM900 Arena, KP500 Cookie, LG KF300.
+                \item Embedded the experimental image processing algorithm for HDR photos.
+                \item Localized mobile phones for CIS market.
+                \item Stack: \textit{C++, Assembler, Rational ClearCase, Internal company SDKs}
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Saint-Petersburg, Russia
+
+        Jan. 2007 to Apr. 2008
+        }
+            \textbf{Prosecurity}, \textit{Software Developer}
+            \begin{highlights}
+                \item Design and development of GPS/GSM based security system for automotive.
+                \item Low-level programming for Microchip and ARM controllers.
+                \item Developed internal protocols for data exchange (over TCP/IP, I2C, SPI, RS232).
+                \item Developed frontend system for vehicle position monitoring.
+                \item Stack \textit{C, Assembler, C++, Microchip, ARM}
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Saint-Petersburg, Russia
+
+        Sept. 2005 to Sept. 2006
+        }
+            \textbf{XVD Corporation (USA)}, Software Developer
+            \begin{highlights}
+                \item Developed new algorithm for DCT coefficients coding and made integration in company products. Algorithm helped to reduce video data size and as result company products used less bandwidth. This task was related to my university graduation project.
+                \item Integrated the improved bitrate control algorithm to company products.
+                \item Stack: \textit{C++, C, Assembler, Entropy coding, H264, H265, JPEG}
+            \end{highlights}
+        \end{twocolentry}
+
+
+
+    
+    \section{Projects}
+
+        
+        \begin{twocolentry}{
+            2014 to 2016
+        }
+            \textbf{Securicam Insight IP-Cam}
+            \begin{highlights}
+                \item Developed a firmware for security IP camera. Main benefits of company cameras in that time were simple user interface, stability, good image quality and a lot of features.
+                \item Communication with R\&D team in China during development for clarification of technical questions due to lack of good documentation.
+                \item Stack: \textit{C++, ARM, TI DaVinci, REST}
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2012 to 2013
+        }
+            \textbf{Nekaka Files Sharing Client}
+            \begin{highlights}
+                \item Developed a Windows desktop client integrated on system level for file sharing cloud service.
+                \item Developed a file synchronization algorithm similar to well known Dropbox service.
+                \item (https://habr.com/en/companies/nekaka/articles/182040)\
+                \item Stack: \textit{C++, WinAPI, COM, ATL, SQLite, REST}
+            \end{highlights}
+        \end{twocolentry}
+
+
+
+    
+    \section{Technologies}
+
+        
+        \begin{onecolentry}
+            \textbf{Languages:} C++, C, Scala, Java, Python, Objective-C, SQL.
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Concepts:} Agile development, OOP, Functional Programming, Refactoring, Multi-threading, RPC, IPC, Distributed systems.
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{IDE and tools:} IntelliJ Idea, PyCharm, Qt Creator, Visual Studio, bash, gcc, clang, CMake, qmake, sbt.
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Source and tasks control:} Jira, Git, Jenkins, Clickup, Sourcesafe, Rational ClearCase, Redmine.
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Platforms:} Linux, macOS, Windows.
+        \end{onecolentry}
+
+
+    
+
+\end{document}
