@@ -140,7 +140,7 @@ cv:
           - Developed a Windows desktop client integrated on system level for file sharing cloud
             service.
           - Developed a file synchronization algorithm similar to well known Dropbox service.
-          - (https://habr.com/en/companies/nekaka/articles/182040)\
+          - (https://habr.com/en/companies/nekaka/articles/182040)
           - "Stack: *C++, WinAPI, COM, ATL, SQLite, REST*"
     technologies:
       - label: Languages
