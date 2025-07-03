@@ -9,7 +9,7 @@
 
 # Summary
 
-I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: *distributed client server systems, VoIP and media processing, media streaming solutions, IoT and embedded systems, cross-platform development*. My priority for future is backend development as I like to take care about business logic, invent API structure and optimize performance in highly loaded systems.
+I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: *distributed client server systems, VoIP and media processing, media streaming solutions, AI services, RAG, IoT and embedded systems, cross-platform development*.
 
 
 # Education
@@ -27,8 +27,8 @@ I'm software engineer with strong experience in computer science. I was particip
 - July 2022 – present
 - Dubai, UAE
 - Development of platform for telehealth services with integrated video calls and IoT medical devices. Scalable backend written on Scala and native frontend clients for mobiles and desktop devices.
+- AI-powered services to optimize healthcare providers (in UAE and KSA) workflow. RAG and Agents with in-house LLMs
 - Analyzing business requirements and search for optimal technical solutions for implementation.
-- AI-powered services to optimize healthcare providers workflow.
 - Development lead of the VoIP and messaging platform team.
 - Implementation of microservice for data store, processing and analyzing of third-party medical smart devices and wearables.
 - Transition from internal media server to Zoom Video SDK as it was requirements from local regulator to use VoIP calls in UAE.
@@ -43,7 +43,7 @@ I'm software engineer with strong experience in computer science. I was particip
 - I led the desktop client team and coordinated tasks using agile methodology.
 - Participated in backend development and API design.
 - Product was created from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.
-- Stack: *C++, Scala, Qt, WebRTC, gtest, OpenSSL, Janus Media Server* \\ \\
+- Stack: *C++, Scala, Qt, WebRTC, gtest, OpenSSL, Janus Media Server*
 
 
 ## NITA LLC, *Senior Software Developer*
@@ -100,8 +100,8 @@ I'm software engineer with strong experience in computer science. I was particip
 
 # Technologies
 
-- Languages: C++, C, Scala, Java, Python, Objective-C, SQL.
-- Concepts: Agile development, OOP, Functional Programming, Refactoring, Multi-threading, RPC, IPC, Distributed systems.
+- Languages: C++, C, Python, Scala, Java, Objective-C, SQL.
+- Concepts and technologies: Agile development, OOP, AI, RAG, Functional Programming, Refactoring, Multi-threading, RPC, IPC, Distributed systems.
 - IDE and tools: IntelliJ Idea, PyCharm, Qt Creator, Visual Studio, bash, gcc, clang, CMake, qmake, sbt.
 - Source and tasks control: Jira, Git, Jenkins, Clickup, Sourcesafe, Rational ClearCase, Redmine.
 - Platforms: Linux, macOS, Windows.

@@ -24,11 +24,8 @@ cv:
         including the development and optimization of custom video codecs with
         enhanced performance characteristics.
         Main interest and expertise: *distributed client server systems,
-        VoIP and media processing, media streaming solutions, IoT and embedded systems,
-        cross-platform development*.
-        My priority for future is backend development as I like to take care about
-        business logic, invent API structure and optimize performance in highly loaded
-        systems.
+        VoIP and media processing, media streaming solutions, AI services, RAG,
+        IoT and embedded systems, cross-platform development*.
     education:
       - institution: Saint Petersburg State University of Aerospace and Instrumentation
         area: "*Computer Science*"
@@ -50,9 +47,9 @@ cv:
           - Development of platform for telehealth services with integrated video calls 
             and IoT medical devices. Scalable backend written on Scala and native frontend
             clients for mobiles and desktop devices.
+          - AI-powered services to optimize healthcare providers (in UAE and KSA) workflow. RAG and Agents with in-house LLMs
           - Analyzing business requirements and search for optimal technical solutions
             for implementation.
-          - AI-powered services to optimize healthcare providers workflow.
           - Development lead of the VoIP and messaging platform team.
           - Implementation of microservice for data store, processing and analyzing of
             third-party medical smart devices and wearables.
@@ -76,8 +73,7 @@ cv:
             acquired and now used as core in telehealth project.
           - >
             Stack: *C++, Scala, Qt, WebRTC, gtest, OpenSSL, Janus Media Server*
-            \\
-            \\
+ 
       - company: NITA LLC
         position: "*Senior Software Developer*"
         location: Saint-Petersburg, Russia
@@ -148,9 +144,9 @@ cv:
           - "Stack: *C++, WinAPI, COM, ATL, SQLite, REST*"
     technologies:
       - label: Languages
-        details: C++, C, Scala, Java, Python, Objective-C, SQL.
-      - label: Concepts
-        details: Agile development, OOP, Functional Programming, Refactoring,
+        details: C++, C, Python, Scala, Java, Objective-C, SQL.
+      - label: Concepts and technologies
+        details: Agile development, OOP, AI, RAG, Functional Programming, Refactoring,
                  Multi-threading, RPC, IPC, Distributed systems.
       - label: IDE and tools
         details: IntelliJ Idea, PyCharm, Qt Creator, Visual Studio, bash, gcc,

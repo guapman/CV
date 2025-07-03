@@ -3,7 +3,7 @@
 
 #let name = "Konstantin Alekseev"
 #let locale-catalog-page-numbering-style = context { "Konstantin Alekseev - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in May 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in July 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
@@ -465,7 +465,7 @@
 
 
 #one-col-entry(
-  content: [I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C\/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: #emph[distributed client server systems, VoIP and media processing, media streaming solutions, IoT and embedded systems, cross-platform development]. My priority for future is backend development as I like to take care about business logic, invent API structure and optimize performance in highly loaded systems.
+  content: [I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C\/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: #emph[distributed client server systems, VoIP and media processing, media streaming solutions, AI services, RAG, IoT and embedded systems, cross-platform development].
 ]
 )
 
@@ -505,7 +505,7 @@
     #strong[iO Health], #emph[Team Leader]
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Development of platform for telehealth services with integrated video calls and IoT medical devices. Scalable backend written on Scala and native frontend clients for mobiles and desktop devices.],[Analyzing business requirements and search for optimal technical solutions for implementation.],[AI-powered services to optimize healthcare providers workflow.],[Development lead of the VoIP and messaging platform team.],[Implementation of microservice for data store, processing and analyzing of third-party medical smart devices and wearables.],[Transition from internal media server to Zoom Video SDK as it was requirements from local regulator to use VoIP calls in UAE.],[Stack: #emph[Scala, Java, C++, Python, AI, RTMP, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker]],)
+    #v(design-highlights-top-margin);#highlights([Development of platform for telehealth services with integrated video calls and IoT medical devices. Scalable backend written on Scala and native frontend clients for mobiles and desktop devices.],[AI-powered services to optimize healthcare providers \(in UAE and KSA\) workflow. RAG and Agents with in-house LLMs],[Analyzing business requirements and search for optimal technical solutions for implementation.],[Development lead of the VoIP and messaging platform team.],[Implementation of microservice for data store, processing and analyzing of third-party medical smart devices and wearables.],[Transition from internal media server to Zoom Video SDK as it was requirements from local regulator to use VoIP calls in UAE.],[Stack: #emph[Scala, Java, C++, Python, AI, RTMP, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker]],)
   ],
   right-content: [
     Dubai, UAE
@@ -520,7 +520,7 @@ July 2022 – present
     #strong[Shamsa Tech], #emph[Desktop Client Team Leader \/ Backend Developer]
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Developed a cross-platform desktop client for B2B messaging and video calls platform.],[Implemented custom binary protocol with strong security and worked hard on complex modern UI that was developed in thought cooperation with design team.],[I led the desktop client team and coordinated tasks using agile methodology.],[Participated in backend development and API design.],[Product was created from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.],[Stack: #emph[C++, Scala, Qt, WebRTC, gtest, OpenSSL, Janus Media Server] \\\\ \\\\
+    #v(design-highlights-top-margin);#highlights([Developed a cross-platform desktop client for B2B messaging and video calls platform.],[Implemented custom binary protocol with strong security and worked hard on complex modern UI that was developed in thought cooperation with design team.],[I led the desktop client team and coordinated tasks using agile methodology.],[Participated in backend development and API design.],[Product was created from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.],[Stack: #emph[C++, Scala, Qt, WebRTC, gtest, OpenSSL, Janus Media Server]
 
 #v(-design-text-leading)],)
   ],
@@ -631,11 +631,11 @@ Sept 2005 – Sept 2006
 
 
 #one-col-entry(
-  content: [#strong[Languages:] C++, C, Scala, Java, Python, Objective-C, SQL]
+  content: [#strong[Languages:] C++, C, Python, Scala, Java, Objective-C, SQL]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Concepts:] Agile development, OOP, Functional Programming, Refactoring, Multi-threading, RPC, IPC, Distributed systems]
+  content: [#strong[Concepts and technologies:] Agile development, OOP, AI, RAG, Functional Programming, Refactoring, Multi-threading, RPC, IPC, Distributed systems]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
