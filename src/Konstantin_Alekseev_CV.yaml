@@ -24,7 +24,7 @@ cv:
         including the development and optimization of custom video codecs with
         enhanced performance characteristics.
         Main interest and expertise: *distributed client server systems,
-        VoIP and media processing, media streaming solutions, AI services, RAG,
+        VoIP and media processing, media streaming solutions, AI services, LLM, RAG,
         IoT and embedded systems, cross-platform development*.
     education:
       - institution: Saint Petersburg State University of Aerospace and Instrumentation
@@ -55,8 +55,8 @@ cv:
             third-party medical smart devices and wearables.
           - Transition from internal media server to Zoom Video SDK as it was requirements
             from local regulator to use VoIP calls in UAE.
-          - "Stack: *Scala, Java, C++, Python, AI, RTMP, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker*"
-      - company: Shamsa Tech
+          - "Stack: *Scala, Java, C++, Python, AI, RAG, LLM, RTMP, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker*"
+      - company: Shamsa Tech (rebranded as iO Health in 2022)
         position: "*Desktop Client Team Leader / Backend Developer*"
         location: Dubai, UAE (Remote)
         start_date: 2015-12
@@ -72,7 +72,7 @@ cv:
           - Product was created from scratch and successfully finished. Later it was
             acquired and now used as core in telehealth project.
           - >
-            Stack: *C++, Scala, Qt, WebRTC, gtest, OpenSSL, Janus Media Server*
+            Stack: *C++, Scala, Qt, RTP, WebRTC, gtest, OpenSSL, Janus Media Server*
  
       - company: NITA LLC
         position: "*Senior Software Developer*"

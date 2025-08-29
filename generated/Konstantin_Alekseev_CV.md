@@ -9,7 +9,7 @@
 
 # Summary
 
-I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: *distributed client server systems, VoIP and media processing, media streaming solutions, AI services, RAG, IoT and embedded systems, cross-platform development*.
+I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: *distributed client server systems, VoIP and media processing, media streaming solutions, AI services, LLM, RAG, IoT and embedded systems, cross-platform development*.
 
 
 # Education
@@ -32,9 +32,9 @@ I'm software engineer with strong experience in computer science. I was particip
 - Development lead of the VoIP and messaging platform team.
 - Implementation of microservice for data store, processing and analyzing of third-party medical smart devices and wearables.
 - Transition from internal media server to Zoom Video SDK as it was requirements from local regulator to use VoIP calls in UAE.
-- Stack: *Scala, Java, C++, Python, AI, RTMP, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker*
+- Stack: *Scala, Java, C++, Python, AI, RAG, LLM, RTMP, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker*
 
-## Shamsa Tech, *Desktop Client Team Leader / Backend Developer*
+## Shamsa Tech (rebranded as iO Health in 2022), *Desktop Client Team Leader / Backend Developer*
 
 - Dec 2015 – June 2022
 - Dubai, UAE (Remote)
@@ -43,7 +43,7 @@ I'm software engineer with strong experience in computer science. I was particip
 - I led the desktop client team and coordinated tasks using agile methodology.
 - Participated in backend development and API design.
 - Product was created from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.
-- Stack: *C++, Scala, Qt, WebRTC, gtest, OpenSSL, Janus Media Server*
+- Stack: *C++, Scala, Qt, RTP, WebRTC, gtest, OpenSSL, Janus Media Server*
 
 
 ## NITA LLC, *Senior Software Developer*
