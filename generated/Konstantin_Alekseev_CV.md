@@ -18,7 +18,7 @@ I'm software engineer with strong experience in computer science. I was particip
 
 - Sept 2001 – Sept 2007
 - **Graduation project:** Effective encoding of DCT transformation coefficients in the video compression tasks.
-- **Coursework:** Automated control systems, Embedded systems, Signal Processing, System level software, Network technologies, Computer graphics, Real-time systems, AI systems, Software Foundations, Computer Architecture.
+- **Coursework:** Automated control systems, Embedded systems, Signal Processing, Network technologies, Real-time systems, AI systems, Software Foundations, Computer Architecture.
 
 # Experience
 

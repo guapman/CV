@@ -487,7 +487,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[Graduation project:] Effective encoding of DCT transformation coefficients in the video compression tasks.],[#strong[Coursework:] Automated control systems, Embedded systems, Signal Processing, System level software, Network technologies, Computer graphics, Real-time systems, AI systems, Software Foundations, Computer Architecture.],)
+    #v(design-highlights-top-margin);#highlights([#strong[Graduation project:] Effective encoding of DCT transformation coefficients in the video compression tasks.],[#strong[Coursework:] Automated control systems, Embedded systems, Signal Processing, Network technologies, Real-time systems, AI systems, Software Foundations, Computer Architecture.],)
   ],
   inset: (
     left: design-entry-types-education-entry-degree-column-width + design-entries-horizontal-space-between-columns + design-entries-left-and-right-margin,
