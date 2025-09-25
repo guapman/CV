@@ -9,7 +9,7 @@
 
 # Summary
 
-I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: *distributed client server systems, VoIP and media processing, media streaming solutions, AI services, LLM, RAG, IoT and embedded systems, cross-platform development*.
+I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: *distributed client server systems, networks, VoIP and media processing, media streaming solutions, AI services, LLM, RAG, IoT and embedded systems, cross-platform development*.
 
 
 # Education
@@ -32,18 +32,18 @@ I'm software engineer with strong experience in computer science. I was particip
 - Development lead of the VoIP and messaging platform team.
 - Implementation of microservice for data store, processing and analyzing of third-party medical smart devices and wearables.
 - Transition from internal media server to Zoom Video SDK as it was requirements from local regulator to use VoIP calls in UAE.
-- Stack: *Scala, Java, C++, Python, AI, RAG, LLM, RTMP, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker*
+- Stack: *Scala, Java, C, C++, Python, AI, RAG, LLM, RTP, STUN, WebRTC, Cassandra, Postgres, AWS/OCI, Docker*
 
 ## Shamsa Tech (rebranded as iO Health in 2022), *Desktop Client Team Leader / Backend Developer*
 
 - Dec 2015 – June 2022
 - Dubai, UAE (Remote)
 - Developed a cross-platform desktop client for B2B messaging and video calls platform.
-- Implemented custom binary protocol with strong security and worked hard on complex modern UI that was developed in thought cooperation with design team.
+- Implementation of custom binary protocol with strong security.
 - I led the desktop client team and coordinated tasks using agile methodology.
 - Participated in backend development and API design.
-- Product was created from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.
-- Stack: *C++, Scala, Qt, RTP, WebRTC, gtest, OpenSSL, Janus Media Server*
+- Product was developed from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.
+- Stack: *C, C++, Scala, Java, Qt, RTP, STUN, WebRTC, OpenSSL, Janus Media Server, Docker*
 
 
 ## NITA LLC, *Senior Software Developer*
@@ -51,9 +51,9 @@ I'm software engineer with strong experience in computer science. I was particip
 - Jan 2011 – May 2022
 - Saint-Petersburg, Russia
 - Implemented a new pseudo-pilot workspace for air traffic controllers simulator that is widely used all over the CIS region, Turkey and Lithuania.
-- Took part in AMAN/DMAN service implementation for arrival and departure planes management. Service was successfully integrated in several ATC centers and helped to increase throughput of air traffic flows.
-- Integrated new technologies to the legacy code base that helped to improve stability of software and development process.
-- Stack: *C++, Qt, QML, STL, boost, WinAPI, MFC, XML*
+- Development of AMAN/DMAN service for arrival and departure planes management. Service was successfully integrated in several ATC centers and helped to increase throughput of air traffic flows.
+- Integration of new technologies to the legacy code base that helped to improve stability of software and development process.
+- Stack: *C, C++, Qt, TCP, STL, boost, WinAPI, MFC, XML*
 
 ## LG Electonics, *Research Engineer*
 
@@ -61,7 +61,7 @@ I'm software engineer with strong experience in computer science. I was particip
 - Saint-Petersburg, Russia
 - Took part in development and release of mobile phones GD880, GD510, BL40, KM900 Arena, KP500 Cookie, LG KF300.
 - Embedded the experimental image processing algorithm for HDR photos.
-- Stack: *C++, Assembler, Rational ClearCase, Internal company SDKs*
+- Stack: *C, C++, Assembler, Rational ClearCase, Internal company SDKs*
 
 ## Prosecurity, *Software Developer*
 
@@ -79,7 +79,7 @@ I'm software engineer with strong experience in computer science. I was particip
 - Saint-Petersburg, Russia
 - Developed new algorithm for DCT coefficients coding and made integration in company products. Algorithm helped to reduce video data size and as result company products used less bandwidth. This task was related to my university graduation project.
 - Integrated the improved bitrate control algorithm to company products.
-- Stack: *C++, C, Assembler, Entropy coding, H264, H265, JPEG*
+- Stack: *C, C++, Assembler, Entropy coding, RTP, H264, H265, JPEG*
 
 # Projects
 
@@ -101,7 +101,7 @@ I'm software engineer with strong experience in computer science. I was particip
 # Technologies
 
 - Languages: C++, C, Python, Scala, Java, Objective-C, SQL.
-- Concepts and technologies: Agile development, OOP, AI, RAG, Functional Programming, Refactoring, Multi-threading, RPC, IPC, Distributed systems.
+- Concepts and technologies: Agile, OOP, AI, RAG, VoIP, Networks, Cryptography, Refactoring, Multi-threading, RPC, Distributed systems.
 - IDE and tools: IntelliJ Idea, PyCharm, Qt Creator, Visual Studio, bash, gcc, clang, CMake, qmake, sbt.
 - Source and tasks control: Jira, Git, Jenkins, Clickup, Sourcesafe, Rational ClearCase, Redmine.
 - Platforms: Linux, macOS, Windows.

@@ -3,7 +3,7 @@
 
 #let name = "Konstantin Alekseev"
 #let locale-catalog-page-numbering-style = context { "Konstantin Alekseev - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Aug 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Sept 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
@@ -465,7 +465,7 @@
 
 
 #one-col-entry(
-  content: [I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C\/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: #emph[distributed client server systems, VoIP and media processing, media streaming solutions, AI services, LLM, RAG, IoT and embedded systems, cross-platform development].
+  content: [I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C\/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: #emph[distributed client server systems, networks, VoIP and media processing, media streaming solutions, AI services, LLM, RAG, IoT and embedded systems, cross-platform development].
 ]
 )
 
@@ -505,7 +505,7 @@
     #strong[iO Health], #emph[Team Leader]
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Development of platform for telehealth services with integrated video calls and IoT medical devices. Scalable backend written on Scala and native frontend clients for mobiles and desktop devices.],[AI-powered services to optimize healthcare providers \(in UAE and KSA\) workflow. RAG and Agents with in-house LLMs],[Analyzing business requirements and search for optimal technical solutions for implementation.],[Development lead of the VoIP and messaging platform team.],[Implementation of microservice for data store, processing and analyzing of third-party medical smart devices and wearables.],[Transition from internal media server to Zoom Video SDK as it was requirements from local regulator to use VoIP calls in UAE.],[Stack: #emph[Scala, Java, C++, Python, AI, RAG, LLM, RTMP, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker]],)
+    #v(design-highlights-top-margin);#highlights([Development of platform for telehealth services with integrated video calls and IoT medical devices. Scalable backend written on Scala and native frontend clients for mobiles and desktop devices.],[AI-powered services to optimize healthcare providers \(in UAE and KSA\) workflow. RAG and Agents with in-house LLMs],[Analyzing business requirements and search for optimal technical solutions for implementation.],[Development lead of the VoIP and messaging platform team.],[Implementation of microservice for data store, processing and analyzing of third-party medical smart devices and wearables.],[Transition from internal media server to Zoom Video SDK as it was requirements from local regulator to use VoIP calls in UAE.],[Stack: #emph[Scala, Java, C, C++, Python, AI, RAG, LLM, RTP, STUN, WebRTC, Cassandra, Postgres, AWS\/OCI, Docker]],)
   ],
   right-content: [
     Dubai, UAE
@@ -520,7 +520,7 @@ July 2022 – present
     #strong[Shamsa Tech \(rebranded as iO Health in 2022\)], #emph[Desktop Client Team Leader \/ Backend Developer]
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Developed a cross-platform desktop client for B2B messaging and video calls platform.],[Implemented custom binary protocol with strong security and worked hard on complex modern UI that was developed in thought cooperation with design team.],[I led the desktop client team and coordinated tasks using agile methodology.],[Participated in backend development and API design.],[Product was created from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.],[Stack: #emph[C++, Scala, Qt, RTP, WebRTC, gtest, OpenSSL, Janus Media Server]
+    #v(design-highlights-top-margin);#highlights([Developed a cross-platform desktop client for B2B messaging and video calls platform.],[Implementation of custom binary protocol with strong security.],[I led the desktop client team and coordinated tasks using agile methodology.],[Participated in backend development and API design.],[Product was developed from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.],[Stack: #emph[C, C++, Scala, Java, Qt, RTP, STUN, WebRTC, OpenSSL, Janus Media Server, Docker]
 
 #v(-design-text-leading)],)
   ],
@@ -537,7 +537,7 @@ Dec 2015 – June 2022
     #strong[NITA LLC], #emph[Senior Software Developer]
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Implemented a new pseudo-pilot workspace for air traffic controllers simulator that is widely used all over the CIS region, Turkey and Lithuania.],[Took part in AMAN\/DMAN service implementation for arrival and departure planes management. Service was successfully integrated in several ATC centers and helped to increase throughput of air traffic flows.],[Integrated new technologies to the legacy code base that helped to improve stability of software and development process.],[Stack: #emph[C++, Qt, QML, STL, boost, WinAPI, MFC, XML]],)
+    #v(design-highlights-top-margin);#highlights([Implemented a new pseudo-pilot workspace for air traffic controllers simulator that is widely used all over the CIS region, Turkey and Lithuania.],[Development of AMAN\/DMAN service for arrival and departure planes management. Service was successfully integrated in several ATC centers and helped to increase throughput of air traffic flows.],[Integration of new technologies to the legacy code base that helped to improve stability of software and development process.],[Stack: #emph[C, C++, Qt, TCP, STL, boost, WinAPI, MFC, XML]],)
   ],
   right-content: [
     Saint-Petersburg, Russia
@@ -552,7 +552,7 @@ Jan 2011 – May 2022
     #strong[LG Electonics], #emph[Research Engineer]
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Took part in development and release of mobile phones GD880, GD510, BL40, KM900 Arena, KP500 Cookie, LG KF300.],[Embedded the experimental image processing algorithm for HDR photos.],[Stack: #emph[C++, Assembler, Rational ClearCase, Internal company SDKs]],)
+    #v(design-highlights-top-margin);#highlights([Took part in development and release of mobile phones GD880, GD510, BL40, KM900 Arena, KP500 Cookie, LG KF300.],[Embedded the experimental image processing algorithm for HDR photos.],[Stack: #emph[C, C++, Assembler, Rational ClearCase, Internal company SDKs]],)
   ],
   right-content: [
     Saint-Petersburg, Russia
@@ -582,7 +582,7 @@ Jan 2007 – Apr 2008
     #strong[XVD Corporation \(USA\)], Software Developer
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Developed new algorithm for DCT coefficients coding and made integration in company products. Algorithm helped to reduce video data size and as result company products used less bandwidth. This task was related to my university graduation project.],[Integrated the improved bitrate control algorithm to company products.],[Stack: #emph[C++, C, Assembler, Entropy coding, H264, H265, JPEG]],)
+    #v(design-highlights-top-margin);#highlights([Developed new algorithm for DCT coefficients coding and made integration in company products. Algorithm helped to reduce video data size and as result company products used less bandwidth. This task was related to my university graduation project.],[Integrated the improved bitrate control algorithm to company products.],[Stack: #emph[C, C++, Assembler, Entropy coding, RTP, H264, H265, JPEG]],)
   ],
   right-content: [
     Saint-Petersburg, Russia
@@ -635,7 +635,7 @@ Sept 2005 – Sept 2006
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Concepts and technologies:] Agile development, OOP, AI, RAG, Functional Programming, Refactoring, Multi-threading, RPC, IPC, Distributed systems]
+  content: [#strong[Concepts and technologies:] Agile, OOP, AI, RAG, VoIP, Networks, Cryptography, Refactoring, Multi-threading, RPC, Distributed systems]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(

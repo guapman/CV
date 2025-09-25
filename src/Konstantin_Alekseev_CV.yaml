@@ -23,7 +23,7 @@ cv:
         I have contributed to several projects involving advanced media processing solutions,
         including the development and optimization of custom video codecs with
         enhanced performance characteristics.
-        Main interest and expertise: *distributed client server systems,
+        Main interest and expertise: *distributed client server systems, networks,
         VoIP and media processing, media streaming solutions, AI services, LLM, RAG,
         IoT and embedded systems, cross-platform development*.
     education:
@@ -54,7 +54,7 @@ cv:
             third-party medical smart devices and wearables.
           - Transition from internal media server to Zoom Video SDK as it was requirements
             from local regulator to use VoIP calls in UAE.
-          - "Stack: *Scala, Java, C++, Python, AI, RAG, LLM, RTMP, WebRTC, Cassandra, Postgres, AWS, Oracle, Docker*"
+          - "Stack: *Scala, Java, C, C++, Python, AI, RAG, LLM, RTP, STUN, WebRTC, Cassandra, Postgres, AWS/OCI, Docker*"
       - company: Shamsa Tech (rebranded as iO Health in 2022)
         position: "*Desktop Client Team Leader / Backend Developer*"
         location: Dubai, UAE (Remote)
@@ -63,15 +63,13 @@ cv:
         highlights:
           - Developed a cross-platform desktop client for B2B messaging
             and video calls platform.
-          - Implemented custom binary protocol with strong security and
-            worked hard on complex modern UI that was developed in 
-            thought cooperation with design team.
+          - Implementation of custom binary protocol with strong security.
           - I led the desktop client team and coordinated tasks using agile methodology.
           - Participated in backend development and API design.
-          - Product was created from scratch and successfully finished. Later it was
+          - Product was developed from scratch and successfully finished. Later it was
             acquired and now used as core in telehealth project.
           - >
-            Stack: *C++, Scala, Qt, RTP, WebRTC, gtest, OpenSSL, Janus Media Server*
+            Stack: *C, C++, Scala, Java, Qt, RTP, STUN, WebRTC, OpenSSL, Janus Media Server, Docker*
  
       - company: NITA LLC
         position: "*Senior Software Developer*"
@@ -81,12 +79,12 @@ cv:
         highlights:
           - Implemented a new pseudo-pilot workspace for air traffic controllers simulator
             that is widely used all over the CIS region, Turkey and Lithuania.
-          - Took part in AMAN/DMAN service implementation for arrival and departure
+          - Development of AMAN/DMAN service for arrival and departure
             planes management. Service was successfully integrated in several ATC centers
             and helped to increase throughput of air traffic flows.
-          - Integrated new technologies to the legacy code base that helped to improve
+          - Integration of new technologies to the legacy code base that helped to improve
             stability of software and development process.
-          - "Stack: *C++, Qt, QML, STL, boost, WinAPI, MFC, XML*"
+          - "Stack: *C, C++, Qt, TCP, STL, boost, WinAPI, MFC, XML*"
       - company: LG Electonics
         position: "*Research Engineer*"
         location: Saint-Petersburg, Russia
@@ -96,7 +94,7 @@ cv:
           - Took part in development and release of mobile phones 
             GD880, GD510, BL40, KM900 Arena, KP500 Cookie, LG KF300.
           - Embedded the experimental image processing algorithm for HDR photos.
-          - "Stack: *C++, Assembler, Rational ClearCase, Internal company SDKs*"
+          - "Stack: *C, C++, Assembler, Rational ClearCase, Internal company SDKs*"
       - company: Prosecurity
         position: "*Software Developer*"
         location: Saint-Petersburg, Russia
@@ -120,7 +118,7 @@ cv:
             and as result company products used less bandwidth. This task was
             related to my university graduation project.
           - Integrated the improved bitrate control algorithm to company products.
-          - "Stack: *C++, C, Assembler, Entropy coding, H264, H265, JPEG*"
+          - "Stack: *C, C++, Assembler, Entropy coding, RTP, H264, H265, JPEG*"
     projects:
       - name: Securicam Insight IP-Cam
         start_date: 2014
@@ -145,8 +143,8 @@ cv:
       - label: Languages
         details: C++, C, Python, Scala, Java, Objective-C, SQL.
       - label: Concepts and technologies
-        details: Agile development, OOP, AI, RAG, Functional Programming, Refactoring,
-                 Multi-threading, RPC, IPC, Distributed systems.
+        details: Agile, OOP, AI, RAG, VoIP, Networks, Cryptography, Refactoring,
+                 Multi-threading, RPC, Distributed systems.
       - label: IDE and tools
         details: IntelliJ Idea, PyCharm, Qt Creator, Visual Studio, bash, gcc,
                  clang, CMake, qmake, sbt.
