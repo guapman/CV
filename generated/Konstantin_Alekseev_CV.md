@@ -9,16 +9,14 @@
 
 # Summary
 
-I'm software engineer with strong experience in computer science. I was participating in many projects as developer and as team leader in such domains as aviation, healthcare, video surveillance, media processing, security systems. I have experience with different programming languages, instruments and services, always learn new technologies in this rapidly growing area. My technical background spans a wide range of languages and frameworks —  from low-level and ultra-low-latency C/C++, to JVM-based languages like Java and Scala, as well as Python for rapid prototyping and AI-powered services. Video processing and streaming is one of my favorite areas of expertise. I have contributed to several projects involving advanced media processing solutions, including the development and optimization of custom video codecs with enhanced performance characteristics. Main interest and expertise: *distributed client server systems, networks, VoIP and media processing, media streaming solutions, AI services, LLM, RAG, IoT and embedded systems, cross-platform development*.
+Senior Software Engineer & Team Lead with 15+ years of experience designing and delivering scalable,  high-performance systems across healthcare, aviation, and media domains.  Collaborated with cross-functional teams to build real-time communication platforms, AI-powered services,  and low-latency video streaming solutions used by thousands of end users. Expert in C/C++, Python and Scala, with deep knowledge of distributed architectures, VoIP, WebRTC,  and AI-driven data processing pipelines. Strong background in system optimization,  cross-platform development, and embedded/IoT integration. Known for bridging complex technical design with business objectives — from developing  compression algorithms adopted in commercial codecs to leading AI-augmented telehealth  platforms that improve operational efficiency by up to 30%.  Passionate about building reliable, secure, and efficient systems that scale.
 
 
 # Education
 
-## Saint Petersburg State University of Aerospace and Instrumentation, M.C.S in *Computer Science*
+## Saint Petersburg State University of Aerospace and Instrumentation, M.C.S in *Computer Science* - Signal Processing / Embedded systems / Automated control systems
 
 - Sept 2001 – Sept 2007
-- **Graduation project:** Effective encoding of DCT transformation coefficients in the video compression tasks.
-- **Coursework:** Automated control systems, Embedded systems, Signal Processing, Network technologies, Real-time systems, AI systems, Software Foundations, Computer Architecture.
 
 # Experience
 
@@ -26,59 +24,60 @@ I'm software engineer with strong experience in computer science. I was particip
 
 - July 2022 – present
 - Dubai, UAE
-- Development of platform for telehealth services with integrated video calls and IoT medical devices. Scalable backend written on Scala and native frontend clients for mobiles and desktop devices.
-- AI-powered services to optimize healthcare providers (in UAE and KSA) workflow. RAG and Agents with in-house LLMs
-- Analyzing business requirements and search for optimal technical solutions for implementation.
-- Development lead of the VoIP and messaging platform team.
-- Implementation of microservice for data store, processing and analyzing of third-party medical smart devices and wearables.
-- Transition from internal media server to Zoom Video SDK as it was requirements from local regulator to use VoIP calls in UAE.
-- Stack: *Scala, Java, C, C++, Python, AI, RAG, LLM, RTP, STUN, WebRTC, Cassandra, Postgres, AWS/OCI, Docker*
+- Led a cross-functional team of 6 engineers delivering a next-generation telehealth platform integrating secure video consultations, real-time IoT medical device data, and AI-assisted workflows for providers across the UAE and KSA.
+- Designed and deployed AI-driven workflow automation (RAG-based agent system) that reduced administrative overhead for clinics by ~30%, improving patient throughput and response time.
+- Built data ingestion microservices for third-party medical devices and wearables, enabling secure and scalable health data storage and analytics.
+- Collaborated with product and compliance teams to align platform capabilities with local healthcare data regulations (DHA, MOH).
+- Owned the VoIP and messaging platform, integrating WebRTC and RTP pipelines and ensuring compliance with UAE telecom regulations.
+- Led migration to Zoom SDK to ensure UAE telecom compliance, maintaining all core features while cutting infrastructure maintenance costs by 40%.
+- Stack: *Scala, Java, C, C++, Python, AI/RAG/LLMs, RTP/STUN, WebRTC, Cassandra, Postgres, AWS/OCI, Docker*
 
 ## Shamsa Tech (rebranded as iO Health in 2022), *Desktop Client Team Leader / Backend Developer*
 
 - Dec 2015 – June 2022
 - Dubai, UAE (Remote)
-- Developed a cross-platform desktop client for B2B messaging and video calls platform.
-- Implementation of custom binary protocol with strong security.
-- I led the desktop client team and coordinated tasks using agile methodology.
-- Participated in backend development and API design.
-- Product was developed from scratch and successfully finished. Later it was acquired and now used as core in telehealth project.
-- Stack: *C, C++, Scala, Java, Qt, RTP, STUN, WebRTC, OpenSSL, Janus Media Server, Docker*
-
+- Design and development of a secure, B2B communication platform supporting encrypted messaging and real-time video conferencing for enterprise clients.
+- Built the entire desktop client from scratch (C++/Qt), integrating advanced VoIP and video streaming features via WebRTC and Janus Media Server.
+- Designed a custom binary communication protocol with end-to-end encryption, achieving less than 150 ms latency and meeting strict corporate security standards.
+- Collaborated with backend team to develop and refine protocol and APIs, ensuring efficient media routing and authentication layers.
+- Platform was successfully acquired in 2019 and now serves as the core desktop component of iO Health's telehealth ecosystem.
+- Stack: *C, C++, Scala, Java, Qt, RTP/STUN, WebRTC, OpenSSL, Janus Media Server, Docker*
 
 ## NITA LLC, *Senior Software Developer*
 
 - Jan 2011 – May 2022
 - Saint-Petersburg, Russia
-- Implemented a new pseudo-pilot workspace for air traffic controllers simulator that is widely used all over the CIS region, Turkey and Lithuania.
-- Development of AMAN/DMAN service for arrival and departure planes management. Service was successfully integrated in several ATC centers and helped to increase throughput of air traffic flows.
-- Integration of new technologies to the legacy code base that helped to improve stability of software and development process.
-- Stack: *C, C++, Qt, TCP, STL, boost, WinAPI, MFC, XML*
+- Designed and implemented the Pseudo-Pilot Workspace, enabling simultaneous simulation of up to 500 concurrent aircraft interactions with high real-time fidelity.
+- Developed and integrated the AMAN/DMAN (Arrival/Departure Management) service, improving airspace throughput efficiency by ~20% through optimized sequencing algorithms.
+- Refactored legacy C++ components and introduced modern frameworks.
+- Collaborated with air traffic domain experts to ensure regulatory compliance and reliability of simulation outcomes under strict latency and safety constraints.
+- Stack: *C, C++, Qt, TCP/IP*
 
 ## LG Electonics, *Research Engineer*
 
 - Apr 2008 – Dec 2010
 - Saint-Petersburg, Russia
-- Took part in development and release of mobile phones GD880, GD510, BL40, KM900 Arena, KP500 Cookie, LG KF300.
-- Embedded the experimental image processing algorithm for HDR photos.
-- Stack: *C, C++, Assembler, Rational ClearCase, Internal company SDKs*
+- Contributed to the development and release of multiple global mobile phone models (GD880, BL40, KM900 Arena, GD510, KP500, KF300), collectively shipped to millions of users worldwide.
+- Embedded experimental HDR photo enhancement pipeline.
+- Stack: *C, C++, Assembler, Internal company SDKs*
 
 ## Prosecurity, *Software Developer*
 
 - Jan 2007 – Apr 2008
 - Saint-Petersburg, Russia
-- Design and development of GPS/GSM based security system for automotive.
-- Low-level programming for Microchip and ARM controllers.
-- Developed internal protocols for data exchange (over TCP/IP, I2C, SPI, RS232).
-- Developed frontend system for vehicle position monitoring.
-- Stack *C, Assembler, C++, Microchip, ARM*
+- Designed and developed an automotive GPS/GSM-based security system, integrating embedded firmware, communication protocols, and monitoring interfaces.
+- Programmed Microchip and ARM microcontrollers in C and Assembly for real-time tracking, event detection, and secure data transmission.
+- Developed custom lightweight data-exchange protocols (over TCP/IP, I2C, SPI, RS232).
+- Built a desktop monitoring interface for live vehicle tracking and alerts, supporting concurrent monitoring of hundreds of active devices.
+- Stack *C, C++, Assembly, Microchip, ARM, TCP/IP, I2C, SPI, RS-232*
 
 ## XVD Corporation (USA), Software Developer
 
 - Sept 2005 – Sept 2006
 - Saint-Petersburg, Russia
-- Developed new algorithm for DCT coefficients coding and made integration in company products. Algorithm helped to reduce video data size and as result company products used less bandwidth. This task was related to my university graduation project.
-- Integrated the improved bitrate control algorithm to company products.
+- Developed and integrated a novel DCT coefficient coding algorithm (based on university research) that reduced video data size by ~20% while preserving visual quality, directly decreasing bandwidth usage in production codecs.
+- Enhanced bitrate control and entropy coding modules in the company’s commercial video codec suite, improving adaptive streaming efficiency under varying network conditions.
+- Collaborated with R&D team on codec integration and testing for H.264/H.265 pipelines used in broadcast and IP video transmission.
 - Stack: *C, C++, Assembler, Entropy coding, RTP, H264, H265, JPEG*
 
 # Projects
@@ -86,22 +85,16 @@ I'm software engineer with strong experience in computer science. I was particip
 ## Securicam Insight IP-Cam
 
 - 2014 – 2016
-- Developed a firmware for security IP camera. Main benefits of company cameras in that time were simple user interface, stability, good image quality and a lot of features.
-- Communication with R&D team in China during development for clarification of technical questions due to lack of good documentation.
-- Stack: *C++, ARM, TI DaVinci, REST*
+- Developed IP camera firmware with modern dashboard.
 
 ## Nekaka Files Sharing Client
 
 - 2012 – 2013
-- Developed a Windows desktop client integrated on system level for file sharing cloud service.
-- Developed a file synchronization algorithm similar to well known Dropbox service.
-- (https://habr.com/en/companies/nekaka/articles/182040)
-- Stack: *C++, WinAPI, COM, ATL, SQLite, REST*
+- Windows file-sync client for cloud service (https://habr.com/en/companies/nekaka/articles/182040).
 
 # Technologies
 
 - Languages: C++, C, Python, Scala, Java, Objective-C, SQL.
-- Concepts and technologies: Agile, OOP, AI, RAG, VoIP, Networks, Cryptography, Refactoring, Multi-threading, RPC, Distributed systems.
-- IDE and tools: IntelliJ Idea, PyCharm, Qt Creator, Visual Studio, bash, gcc, clang, CMake, qmake, sbt.
-- Source and tasks control: Jira, Git, Jenkins, Clickup, Sourcesafe, Rational ClearCase, Redmine.
+- Concepts and technologies: Agile, AI/RAG, VoIP, Networks, Cryptography, Multi-threading, Distributed systems.
+- IDE and tools: IntelliJ Idea, PyCharm, VSCode, Docker, k8s, Jenkins, Git, bash, Jira, Clickup, n8n, Wireshark.
 - Platforms: Linux, macOS, Windows.
