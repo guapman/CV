@@ -52,8 +52,8 @@
 #let design-entries-left-and-right-margin = 0.2cm
 #let design-page-top-margin = 2cm
 #let design-page-bottom-margin = 2cm
-#let design-page-left-margin = 1.9cm
-#let design-page-right-margin = 1.9cm
+#let design-page-left-margin = 1.6cm
+#let design-page-right-margin = 1.6cm
 #let design-page-show-last-updated-date = false
 #let design-page-show-page-numbering = true
 #let design-links-underline = false
@@ -623,11 +623,15 @@ Sept 2005 – Sept 2006
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Concepts and technologies:] Agile, AI\/RAG, VoIP, Networks, Cryptography, Multi-threading, Distributed systems]
+  content: [#strong[Technologies:] AI\/RAG, VoIP, Networks, Cryptography, Multi-threading, Distributed systems, REST, GraphQL, OAuth]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[IDE and tools:] IntelliJ Idea, PyCharm, VSCode, Docker, k8s, Jenkins, Git, bash, Jira, Clickup, n8n, Wireshark]
+  content: [#strong[Storage & Messaging:] Postgres, Cassandra, MongoDb, MySQL, SQLite, S3, Redis, Kafka]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[IDE and tools:] IntelliJ Idea, PyCharm, VSCode, Docker, k8s, Jenkins, Git, bash, Jira, Clickup, n8n, Wireshark, ffmpeg]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(

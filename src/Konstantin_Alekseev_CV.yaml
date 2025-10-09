@@ -131,10 +131,13 @@ cv:
     technologies:
       - label: Languages
         details: C++, C, Python, Scala, Java, Objective-C, SQL.
-      - label: Concepts and technologies
-        details: Agile, AI/RAG, VoIP, Networks, Cryptography, Multi-threading, Distributed systems.
+      - label: Technologies
+        details: AI/RAG, VoIP, Networks, Cryptography, Multi-threading, Distributed systems,
+                 REST, GraphQL, OAuth
+      - label: Storage & Messaging
+        details: Postgres, Cassandra, MongoDb, MySQL, SQLite, S3, Redis, Kafka
       - label: IDE and tools
-        details: IntelliJ Idea, PyCharm, VSCode, Docker, k8s, Jenkins, Git, bash, Jira, Clickup, n8n, Wireshark.
+        details: IntelliJ Idea, PyCharm, VSCode, Docker, k8s, Jenkins, Git, bash, Jira, Clickup, n8n, Wireshark, ffmpeg.
       - label: Platforms
         details: Linux, macOS, Windows.
 design:
@@ -143,8 +146,8 @@ design:
     size: us-letter
     top_margin: 2cm
     bottom_margin: 2cm
-    left_margin: 1.9cm
-    right_margin: 1.9cm
+    left_margin: 1.6cm
+    right_margin: 1.6cm
     show_page_numbering: true
     show_last_updated_date: false
   colors:

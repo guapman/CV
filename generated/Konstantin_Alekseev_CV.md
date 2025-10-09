@@ -95,6 +95,7 @@ Senior Software Engineer & Team Lead with 15+ years of experience designing and 
 # Technologies
 
 - Languages: C++, C, Python, Scala, Java, Objective-C, SQL.
-- Concepts and technologies: Agile, AI/RAG, VoIP, Networks, Cryptography, Multi-threading, Distributed systems.
-- IDE and tools: IntelliJ Idea, PyCharm, VSCode, Docker, k8s, Jenkins, Git, bash, Jira, Clickup, n8n, Wireshark.
+- Technologies: AI/RAG, VoIP, Networks, Cryptography, Multi-threading, Distributed systems, REST, GraphQL, OAuth
+- Storage & Messaging: Postgres, Cassandra, MongoDb, MySQL, SQLite, S3, Redis, Kafka
+- IDE and tools: IntelliJ Idea, PyCharm, VSCode, Docker, k8s, Jenkins, Git, bash, Jira, Clickup, n8n, Wireshark, ffmpeg.
 - Platforms: Linux, macOS, Windows.
